@@ -10,6 +10,7 @@ gem 'active_model_serializers', '~> 0.8.3' # NOTE: not the 0.9
 gem 'devise', '~> 3.4.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'thin'
+gem 'rack-cors'
 group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
